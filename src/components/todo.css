@@ -1,0 +1,23 @@
+.todo-enter,
+.todo-appear {
+  opacity: 0;
+  max-height: 0;
+}
+
+.todo-enter-active,
+.todo-appear-active {
+  max-height: 50px;
+  opacity: 1;
+  transition: all 3000ms ease;
+}
+
+.todo-exit {
+  opacity: 1;
+  max-height: 50px;
+}
+
+.todo-exit-active {
+  max-height: 0;
+  opacity: 0;
+  transition: all 3000ms ease;
+}
